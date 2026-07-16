@@ -20,7 +20,7 @@
       "name": "Model Limiter",
       "description": "Restrict which models specific inbound API keys may use; keys stay in the host api-keys list and rules only subtract model access.",
       "author": "berry-shake",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "repository": "https://github.com/berry-shake/cpa-model-limiter-plugin",
       "logo": "https://raw.githubusercontent.com/berry-shake/cpa-model-limiter-plugin/main/logo.png",
       "homepage": "https://github.com/berry-shake/cpa-model-limiter-plugin",
