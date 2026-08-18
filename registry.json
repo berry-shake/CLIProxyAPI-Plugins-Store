@@ -36,6 +36,7 @@
       "author": "origin652 / berry-shake",
       "version": "0.5.0",
       "repository": "https://github.com/berry-shake/cpa-access-guard-plugin",
+      "logo": "https://raw.githubusercontent.com/berry-shake/cpa-access-guard-plugin/mod/logo.png",
       "homepage": "https://github.com/berry-shake/cpa-access-guard-plugin",
       "license": "MIT",
       "tags": [
