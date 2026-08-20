@@ -34,7 +34,7 @@
       "name": "Access Guard",
       "description": "Manages downstream API-key access with model aliases, RPM and budget limits, credential grouping, and CPA-native API key bindings that restrict each key to selected auth-file groups.",
       "author": "origin652 / berry-shake",
-      "version": "0.4.4-fork.4",
+      "version": "0.4.4-fork.5",
       "repository": "https://github.com/berry-shake/cpa-access-guard-plugin",
       "logo": "https://raw.githubusercontent.com/berry-shake/cpa-access-guard-plugin/mod/logo.png",
       "homepage": "https://github.com/berry-shake/cpa-access-guard-plugin",
