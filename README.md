@@ -22,10 +22,10 @@ plugins:
 | Access Guard | `access-guard` | Downstream API keys with model aliases, RPM and budget limits, credential grouping, and native API key bindings to selected auth groups. Fork of origin652's plugin. | [cpa-access-guard-plugin](https://github.com/berry-shake/cpa-access-guard-plugin) |
 | Model Limiter | `model-limiter` | Restricts which models specific inbound API keys may use; rules only subtract model access. | [cpa-model-limiter-plugin](https://github.com/berry-shake/cpa-model-limiter-plugin) |
 | Panel Updater | `panel-updater` | Updates the management panel (`management.html`) from the configured panel repository via a browser page. | [cpa-panel-updater-plugin](https://github.com/berry-shake/cpa-panel-updater-plugin) |
-| Codex 429 Autoban | `autoban` | Holds Codex credentials out of the pool after a 429 until the exhausted 5-hour or weekly window resets. Fork of [ysxk/codex-429-autoban](https://github.com/ysxk/codex-429-autoban). | [cpa-autoban-plugin](https://github.com/berry-shake/cpa-autoban-plugin) |
+| Autoban | `autoban` | Holds Codex credentials out of the pool after a 429 until the exhausted 5-hour or weekly window resets. Fork of [ysxk/codex-429-autoban](https://github.com/ysxk/codex-429-autoban). | [cpa-autoban-plugin](https://github.com/berry-shake/cpa-autoban-plugin) |
 
 CLIProxyAPI calls only the highest-priority enabled scheduler plugin. Access
-Guard and Codex 429 Autoban both register a scheduler, so with Access Guard at
+Guard and Autoban both register a scheduler, so with Access Guard at
 a higher priority, Autoban still records bans but does not filter credentials.
 
 ## Registry Format
