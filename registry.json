@@ -66,7 +66,7 @@
       "name": "Wokey",
       "description": "Use Wokey API keys as auth files: registers Wokey's model catalog (or a selected subset) with a wokey/ prefix by default, forwards OpenAI Chat Completions, Responses and Anthropic Messages natively, shows each key's 24h / 7d / 30d spend as balance bars in the quota panel, and adds a page to manage keys, models, balances and per-key egress proxies.",
       "author": "berry-shake",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "repository": "https://github.com/berry-shake/cpa-wokey-plugin",
       "logo": "https://raw.githubusercontent.com/berry-shake/cpa-wokey-plugin/main/logo.png",
       "homepage": "https://github.com/berry-shake/cpa-wokey-plugin",
