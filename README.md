@@ -23,7 +23,7 @@ plugins:
 | Model Limiter | `model-limiter` | Restricts which models specific inbound API keys may use; rules only subtract model access. | [cpa-model-limiter-plugin](https://github.com/berry-shake/cpa-model-limiter-plugin) |
 | Panel Updater | `panel-updater` | Updates the management panel (`management.html`) from the configured panel repository via a browser page. | [cpa-panel-updater-plugin](https://github.com/berry-shake/cpa-panel-updater-plugin) |
 | Autoban | `autoban` | Holds Codex credentials out of the pool after a 429 until the exhausted 5-hour or weekly window resets. Fork of [ysxk/codex-429-autoban](https://github.com/ysxk/codex-429-autoban). | [cpa-autoban-plugin](https://github.com/berry-shake/cpa-autoban-plugin) |
-| Wokey | `wokey` | Wokey API keys as auth files: registers Wokey models (under a `wokey/` prefix by default), forwards Chat Completions, Responses and Anthropic Messages natively, shows each key's 24h / 7d / 30d spend in the quota panel, and adds a page to manage keys, models, balances and per-key proxies. | [cpa-wokey-plugin](https://github.com/berry-shake/cpa-wokey-plugin) |
+| Wokey | `wokey` | Wokey API keys as auth files: registers Wokey models (under a `wokey/` prefix by default), forwards Chat Completions, Responses and Anthropic Messages natively, shows each key's 24h / 7d / 30d spend as balance bars in the quota panel, and adds a page to manage keys, models, balances and per-key proxies. | [cpa-wokey-plugin](https://github.com/berry-shake/cpa-wokey-plugin) |
 
 CLIProxyAPI calls only the highest-priority enabled scheduler plugin. Access
 Guard and Autoban both register a scheduler, so with Access Guard at
