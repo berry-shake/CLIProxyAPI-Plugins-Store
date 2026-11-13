@@ -92,6 +92,22 @@
         "Auth",
         "Quota"
       ]
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "description": "Use OpenCode Console API keys (OpenCode Go or pay-as-you-go Zen) as auth files: registers OpenCode's models (or a selected subset) with context length, max output, input kinds, tools and reasoning efforts under an opencode/ prefix by default, forwards OpenAI Chat Completions, Responses and Anthropic Messages (plus count_tokens) with the session header Go requires, shows the workspace's Go 5-hour / weekly / monthly usage in the quota panel, and adds a page to manage keys, models, prices, Go usage and per-key egress proxies, with a request log kept on disk.",
+      "author": "berry-shake",
+      "version": "0.1.0",
+      "repository": "https://github.com/berry-shake/cpa-opencode-plugin",
+      "logo": "https://raw.githubusercontent.com/berry-shake/cpa-opencode-plugin/main/logo.png",
+      "homepage": "https://github.com/berry-shake/cpa-opencode-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Quota"
+      ]
     }
   ]
 }
