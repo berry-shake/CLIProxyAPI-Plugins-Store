@@ -76,6 +76,22 @@
         "Auth",
         "Quota"
       ]
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "description": "Use Ollama Cloud API keys as auth files: registers Ollama's cloud models (or a selected subset) with context length and vision / tools / thinking capabilities under an ollama/ prefix by default, forwards OpenAI Chat Completions, Responses and Anthropic Messages natively, shows the account's plan credit, purchased credit and 24h / 7d / 30d usage in the quota panel, and adds a page to manage keys, models, balances and per-key egress proxies, with a request log kept on disk.",
+      "author": "berry-shake",
+      "version": "0.1.0",
+      "repository": "https://github.com/berry-shake/cpa-ollama-plugin",
+      "logo": "https://raw.githubusercontent.com/berry-shake/cpa-ollama-plugin/main/logo.png",
+      "homepage": "https://github.com/berry-shake/cpa-ollama-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Quota"
+      ]
     }
   ]
 }
