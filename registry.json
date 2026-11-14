@@ -114,7 +114,7 @@
       "name": "OpenDesign",
       "description": "Use OpenDesign plan API keys (Go / Plus / Pro / Max) as auth files: loads each key's model list (plans list different models) and registers it, or a selected subset, with context length, output limit and input kinds under an opendesign/ prefix by default, forwards OpenAI Chat Completions, Responses and Anthropic Messages natively, and adds a page to manage keys, models and per-key egress proxies, with a request log kept on disk that shows each key's 5h / 24h / 7d / 30d token usage; a key card can also sign an OpenDesign account in (device authorization, as vela login) to show the plan's official 5-hour / 7-day allowance left and the balance.",
       "author": "berry-shake",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "repository": "https://github.com/berry-shake/cpa-opendesign-plugin",
       "logo": "https://raw.githubusercontent.com/berry-shake/cpa-opendesign-plugin/main/logo.png",
       "homepage": "https://github.com/berry-shake/cpa-opendesign-plugin",
