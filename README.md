@@ -19,7 +19,7 @@ plugins:
 
 | Plugin | ID | What it adds | Repository |
 | --- | --- | --- | --- |
-| Access Guard | `access-guard` | Binds CPA top-level API keys to selected credentials, with per-key model access, RPM and USD budget limits, and usage billing from a synced model price catalog. Fork of origin652's plugin. | [cpa-access-guard-plugin](https://github.com/berry-shake/cpa-access-guard-plugin) |
+| Access Guard | `access-guard` | Binds CPA client API keys (access.api-keys) to selected credentials, with per-key model access, RPM and USD budget limits, and usage billing from a synced model price catalog. Fork of origin652's plugin. | [cpa-access-guard-plugin](https://github.com/berry-shake/cpa-access-guard-plugin) |
 | Model Limiter | `model-limiter` | Restricts which models specific inbound API keys may use; rules only subtract model access. | [cpa-model-limiter-plugin](https://github.com/berry-shake/cpa-model-limiter-plugin) |
 | Panel Updater | `panel-updater` | Updates the management panel (`management.html`) from the configured panel repository via a browser page. | [cpa-panel-updater-plugin](https://github.com/berry-shake/cpa-panel-updater-plugin) |
 | Autoban | `autoban` | Holds Codex credentials out of the pool after a 429 until the exhausted 5-hour or weekly window resets. Fork of [ysxk/codex-429-autoban](https://github.com/ysxk/codex-429-autoban). | [cpa-autoban-plugin](https://github.com/berry-shake/cpa-autoban-plugin) |
