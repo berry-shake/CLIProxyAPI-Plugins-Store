@@ -32,16 +32,15 @@
     {
       "id": "access-guard",
       "name": "Access Guard",
-      "description": "Manages downstream API-key access with model aliases, RPM and budget limits, credential grouping, and CPA-native API key bindings that restrict each key to selected auth-file groups.",
+      "description": "Binds CPA top-level API keys to selected credentials, with per-key model access, RPM and USD budget limits, and usage billing from a synced model price catalog.",
       "author": "origin652 / berry-shake",
-      "version": "0.4.4-fork.24",
+      "version": "0.4.4-fork.26",
       "repository": "https://github.com/berry-shake/cpa-access-guard-plugin",
       "logo": "https://raw.githubusercontent.com/berry-shake/cpa-access-guard-plugin/mod/logo.png",
       "homepage": "https://github.com/berry-shake/cpa-access-guard-plugin",
       "license": "MIT",
       "tags": [
         "Management",
-        "Auth",
         "Scheduler",
         "Security"
       ]
