@@ -123,6 +123,22 @@
         "Auth",
         "Quota"
       ]
+    },
+    {
+      "id": "clinepass",
+      "name": "ClinePass",
+      "description": "Use ClinePass (Cline Pass subscription) API keys as auth files: registers the ClinePass models from Cline's catalog, or a selected subset, under a clinepass/ prefix by default (the cline-pass/ namespace is put back upstream), forwards OpenAI Chat Completions (CPA translates Responses and Anthropic Messages) and answers non-stream calls by aggregating a stream, shows the plan's 5-hour / weekly / monthly usage left in the quota panel, and adds a page to manage keys, models and per-key egress proxies, with a request log kept on disk.",
+      "author": "berry-shake",
+      "version": "0.1.0",
+      "repository": "https://github.com/berry-shake/cpa-clinepass-plugin",
+      "logo": "https://raw.githubusercontent.com/berry-shake/cpa-clinepass-plugin/main/logo.png",
+      "homepage": "https://github.com/berry-shake/cpa-clinepass-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Quota"
+      ]
     }
   ]
 }
